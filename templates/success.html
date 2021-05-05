@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>success</title>
+</head>
+<body>
+<p>File uploaded successfully</p>
+<p id="demo">DEMO</p>
+
+<script type="text/javascript">
+var path = {{ path|tojson }};
+console.log("path: ", path);
+document.getElementById("demo").innerHTML = path;
+
+</script>
+
+</body>
+</html>

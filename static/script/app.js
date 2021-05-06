@@ -15,7 +15,7 @@ var path = "http://www.archive.org/download/mshortworks_001_1202_librivox/msw001
          scrollParent: true,
          normalize: true,
          minimap: true,
-         backend: 'MediaElement',
+         backend: 'AudioElement',
          plugins: [
              WaveSurfer.regions.create(),
              WaveSurfer.minimap.create({
